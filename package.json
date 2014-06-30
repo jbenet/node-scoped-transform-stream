@@ -1,6 +1,6 @@
 {
   "name": "scoped-transform-stream",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scope a transform stream using json-pointer",
   "main": "index.js",
   "dependencies": {

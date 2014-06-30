@@ -11,6 +11,8 @@ function Scope(stream, path) {
       if (err) return cb(err)
       ptr(data, path, result) // replace
       cb(null, data)
+    }, function(cb) {
+      stream.end(cb)
     })
   })
 }
