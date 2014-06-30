@@ -1,0 +1,31 @@
+{
+  "name": "node-scoped-transform-stream",
+  "version": "0.1.0",
+  "description": "Scope a transform stream using json-pointer",
+  "main": "index.js",
+  "dependencies": {
+    "json-pointer": "^0.1.0",
+    "through2": "^0.5.1",
+    "write-transform-read": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node try.js"
+  },
+  "keywords": [
+    "scoped",
+    "transform",
+    "stream",
+    "json-pointer"
+  ],
+  "author": "Juan Benet <juan@benet.ai> (http://juan.benet.ai/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbenet/node-scoped-transform-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jbenet/node-scoped-transform-stream/issues"
+  },
+  "homepage": "https://github.com/jbenet/node-scoped-transform-stream"
+}
